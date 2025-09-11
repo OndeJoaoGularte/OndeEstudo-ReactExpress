@@ -1,14 +1,6 @@
 import * as React from 'react';
 import { styled, alpha } from '@mui/material/styles';
-import {
-  Box,
-  Toolbar,
-  IconButton,
-  InputBase,
-  Badge,
-  MenuItem,
-  Menu,
-} from '@mui/material';
+import { Box, Toolbar, IconButton, InputBase, Badge, MenuItem, Menu } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
 import SearchIcon from '@mui/icons-material/Search';
 import AccountCircle from '@mui/icons-material/AccountCircle';
@@ -16,6 +8,7 @@ import MailIcon from '@mui/icons-material/Mail';
 import NotificationsIcon from '@mui/icons-material/Notifications';
 import MoreIcon from '@mui/icons-material/MoreVert';
 import logoSrc from '../../assets/ondeestudo.png';
+import { Link } from '@tanstack/react-router';
 
 const Search = styled('div')(({ theme }) => ({
   position: 'relative',
@@ -139,6 +132,7 @@ export function Topbar() {
         <IconButton size="large" edge="start" color="inherit" sx={{ mr: 2 }}>
           <MenuIcon />
         </IconButton>
+        <Link to='/'>
         <Box
           component="img"
           sx={{
@@ -148,7 +142,7 @@ export function Topbar() {
           }}
           alt="Logo do site"
           src={logoSrc}
-        />
+        /></Link>
         <Search>
           <SearchIconWrapper>
             <SearchIcon />

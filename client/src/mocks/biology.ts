@@ -5,63 +5,438 @@ export const biology: Subject = {
   name: 'Biologia',
   description: 'Explore os segredos da vida, desde as menores células até os complexos ecossistemas que formam nosso planeta.',
   grades: [
+    // --- ENSINO FUNDAMENTAL 1 ---
+    {
+      id: 'bio-ef-1',
+      level: 1,
+      stage: 'Ensino Fundamental 1',
+      name: '1º Ano do Ensino Fundamental',
+      units: [
+        {
+          id: 'bio-ef-1-un-1',
+          title: 'Unidade - A Terra e o Universo',
+          description: 'Compreendendo nosso lugar no cosmos, os movimentos da Terra e a estrutura do sistema solar.',
+          lessons: [],
+        },
+        {
+          id: 'bio-ef-1-un-2',
+          title: 'Unidade - A Água no Planeta',
+          description: 'Estudo sobre os estados físicos da água, o ciclo hidrológico e sua importância para a vida.',
+          lessons: [],
+        },
+        {
+          id: 'bio-ef-1-un-3',
+          title: 'Unidade - Ar e Atmosfera',
+          description: 'Investigando a composição do ar, as camadas da atmosfera e os fenômenos climáticos.',
+          lessons: [],
+        },
+        {
+          id: 'bio-ef-1-un-4',
+          title: 'Unidade - Seres Vivos e Células',
+          description: 'Uma introdução à diversidade da vida e à descoberta da célula como unidade fundamental dos seres vivos.',
+          lessons: [],
+        },
+      ],
+    },
+    {
+      id: 'bio-ef-2',
+      level: 2,
+      stage: 'Ensino Fundamental 1',
+      name: '2º Ano do Ensino Fundamental',
+      units: [
+        {
+          id: 'bio-ef-2-un-1',
+          title: 'Unidade - A Terra e o Universo',
+          description: 'Compreendendo nosso lugar no cosmos, os movimentos da Terra e a estrutura do sistema solar.',
+          lessons: [],
+        },
+        {
+          id: 'bio-ef-2-un-2',
+          title: 'Unidade - A Água no Planeta',
+          description: 'Estudo sobre os estados físicos da água, o ciclo hidrológico e sua importância para a vida.',
+          lessons: [],
+        },
+        {
+          id: 'bio-ef-2-un-3',
+          title: 'Unidade - Ar e Atmosfera',
+          description: 'Investigando a composição do ar, as camadas da atmosfera e os fenômenos climáticos.',
+          lessons: [],
+        },
+        {
+          id: 'bio-ef-2-un-4',
+          title: 'Unidade - Seres Vivos e Células',
+          description: 'Uma introdução à diversidade da vida e à descoberta da célula como unidade fundamental dos seres vivos.',
+          lessons: [],
+        },
+      ],
+    },
+    {
+      id: 'bio-ef-3',
+      level: 3,
+      stage: 'Ensino Fundamental 1',
+      name: '3º Ano do Ensino Fundamental',
+      units: [
+        {
+          id: 'bio-ef-3-un-1',
+          title: 'Unidade - A Terra e o Universo',
+          description: 'Compreendendo nosso lugar no cosmos, os movimentos da Terra e a estrutura do sistema solar.',
+          lessons: [],
+        },
+        {
+          id: 'bio-ef-3-un-2',
+          title: 'Unidade - A Água no Planeta',
+          description: 'Estudo sobre os estados físicos da água, o ciclo hidrológico e sua importância para a vida.',
+          lessons: [],
+        },
+        {
+          id: 'bio-ef-3-un-3',
+          title: 'Unidade - Ar e Atmosfera',
+          description: 'Investigando a composição do ar, as camadas da atmosfera e os fenômenos climáticos.',
+          lessons: [],
+        },
+        {
+          id: 'bio-ef-3-un-4',
+          title: 'Unidade - Seres Vivos e Células',
+          description: 'Uma introdução à diversidade da vida e à descoberta da célula como unidade fundamental dos seres vivos.',
+          lessons: [],
+        },
+      ],
+    },
+    {
+      id: 'bio-ef-4',
+      level: 4,
+      stage: 'Ensino Fundamental 1',
+      name: '4º Ano do Ensino Fundamental',
+      units: [
+        {
+          id: 'bio-ef-4-un-1',
+          title: 'Unidade - A Terra e o Universo',
+          description: 'Compreendendo nosso lugar no cosmos, os movimentos da Terra e a estrutura do sistema solar.',
+          lessons: [],
+        },
+        {
+          id: 'bio-ef-4-un-2',
+          title: 'Unidade - A Água no Planeta',
+          description: 'Estudo sobre os estados físicos da água, o ciclo hidrológico e sua importância para a vida.',
+          lessons: [],
+        },
+        {
+          id: 'bio-ef-4-un-3',
+          title: 'Unidade - Ar e Atmosfera',
+          description: 'Investigando a composição do ar, as camadas da atmosfera e os fenômenos climáticos.',
+          lessons: [],
+        },
+        {
+          id: 'bio-ef-4-un-4',
+          title: 'Unidade - Seres Vivos e Células',
+          description: 'Uma introdução à diversidade da vida e à descoberta da célula como unidade fundamental dos seres vivos.',
+          lessons: [],
+        },
+      ],
+    },
+    {
+      id: 'bio-ef-5',
+      level: 5,
+      stage: 'Ensino Fundamental 1',
+      name: '5º Ano do Ensino Fundamental',
+      units: [
+        {
+          id: 'bio-ef-5-un-1',
+          title: 'Unidade - A Terra e o Universo',
+          description: 'Compreendendo nosso lugar no cosmos, os movimentos da Terra e a estrutura do sistema solar.',
+          lessons: [],
+        },
+        {
+          id: 'bio-ef-5-un-2',
+          title: 'Unidade - A Água no Planeta',
+          description: 'Estudo sobre os estados físicos da água, o ciclo hidrológico e sua importância para a vida.',
+          lessons: [],
+        },
+        {
+          id: 'bio-ef-5-un-3',
+          title: 'Unidade - Ar e Atmosfera',
+          description: 'Investigando a composição do ar, as camadas da atmosfera e os fenômenos climáticos.',
+          lessons: [],
+        },
+        {
+          id: 'bio-ef-5-un-4',
+          title: 'Unidade - Seres Vivos e Células',
+          description: 'Uma introdução à diversidade da vida e à descoberta da célula como unidade fundamental dos seres vivos.',
+          lessons: [],
+        },
+      ],
+    },
+    // --- ENSINO FUNDAMENTAL 2 ---
+    {
+      id: 'bio-ef-6',
+      level: 6,
+      stage: 'Ensino Fundamental 2',
+      name: '6º Ano do Ensino Fundamental',
+      units: [
+        {
+          id: 'bio-ef-6-un-1',
+          title: 'Unidade - A Terra e o Universo',
+          description: 'Compreendendo nosso lugar no cosmos, os movimentos da Terra e a estrutura do sistema solar.',
+          lessons: [],
+        },
+        {
+          id: 'bio-ef-6-un-2',
+          title: 'Unidade - A Água no Planeta',
+          description: 'Estudo sobre os estados físicos da água, o ciclo hidrológico e sua importância para a vida.',
+          lessons: [],
+        },
+        {
+          id: 'bio-ef-6-un-3',
+          title: 'Unidade - Ar e Atmosfera',
+          description: 'Investigando a composição do ar, as camadas da atmosfera e os fenômenos climáticos.',
+          lessons: [],
+        },
+        {
+          id: 'bio-ef-6-un-4',
+          title: 'Unidade - Seres Vivos e Células',
+          description: 'Uma introdução à diversidade da vida e à descoberta da célula como unidade fundamental dos seres vivos.',
+          lessons: [],
+        },
+      ],
+    },
+    {
+      id: 'bio-ef-7',
+      level: 7,
+      stage: 'Ensino Fundamental 2',
+      name: '7º Ano do Ensino Fundamental',
+      units: [
+        {
+          id: 'bio-ef-7-un-1',
+          title: 'Unidade - Ecossistemas Brasileiros',
+          description: 'Uma viagem pelos principais biomas do Brasil, como a Amazônia, o Cerrado e a Mata Atlântica.',
+          lessons: [],
+        },
+        {
+          id: 'bio-ef-7-un-2',
+          title: 'Unidade - Reinos dos Seres Vivos',
+          description: 'Classificando a diversidade da vida nos grandes reinos: Monera, Protista, Fungi, Plantae e Animalia.',
+          lessons: [],
+        },
+        {
+          id: 'bio-ef-7-un-3',
+          title: 'Unidade - Animais Vertebrados e Invertebrados',
+          description: 'Estudando as características e a classificação dos principais grupos de animais.',
+          lessons: [],
+        },
+        {
+          id: 'bio-ef-7-un-4',
+          title: 'Unidade - Plantas',
+          description: 'Conhecendo os grupos de plantas (Briófitas, Pteridófitas, Gimnospermas e Angiospermas) e seus ciclos de vida.',
+          lessons: [],
+        },
+      ],
+    },
+    {
+      id: 'bio-ef-8',
+      level: 8,
+      stage: 'Ensino Fundamental 2',
+      name: '8º Ano do Ensino Fundamental',
+      units: [
+        {
+          id: 'bio-ef-8-un-1',
+          title: 'Unidade - Corpo Humano: Nutrição e Digestão',
+          description: 'O caminho dos alimentos e a obtenção de nutrientes para o funcionamento do corpo.',
+          lessons: [],
+        },
+        {
+          id: 'bio-ef-8-un-2',
+          title: 'Unidade - Respiração e Circulação',
+          description: 'Como o oxigênio chega às células e como o sangue transporta nutrientes e gases pelo corpo.',
+          lessons: [],
+        },
+        {
+          id: 'bio-ef-8-un-3',
+          title: 'Unidade - Sistemas Sensoriais e Nervoso',
+          description: 'A percepção do ambiente através dos cinco sentidos e o comando do sistema nervoso.',
+          lessons: [],
+        },
+        {
+          id: 'bio-ef-8-un-4',
+          title: 'Unidade - Sexualidade e Reprodução',
+          description: 'Estudo sobre o sistema reprodutor humano, a puberdade e os métodos contraceptivos.',
+          lessons: [],
+        },
+      ],
+    },
+    {
+      id: 'bio-ef-9',
+      level: 9,
+      stage: 'Ensino Fundamental 2',
+      name: '9º Ano do Ensino Fundamental',
+      units: [
+        {
+          id: 'bio-ef-9-un-1',
+          title: 'Unidade - Hereditariedade',
+          description: 'Introdução aos conceitos de genética, DNA, genes e a transmissão de características.',
+          lessons: [],
+        },
+        {
+          id: 'bio-ef-9-un-2',
+          title: 'Unidade - Evolução das Espécies',
+          description: 'As ideias de Lamarck e Darwin e o conceito de seleção natural como motor da evolução.',
+          lessons: [],
+        },
+        {
+          id: 'bio-ef-9-un-3',
+          title: 'Unidade - Química e Física no Cotidiano',
+          description: 'Uma introdução aos conceitos de matéria, átomos, transformações químicas e as leis do movimento.',
+          lessons: [],
+        },
+        {
+          id: 'bio-ef-9-un-4',
+          title: 'Unidade - Ondas, Som e Luz',
+          description: 'Estudando os fenômenos ondulatórios e como percebemos o som e a luz.',
+          lessons: [],
+        },
+      ],
+    },
+    // --- 1º ANO DO ENSINO MÉDIO ---
     {
       id: 'bio-em-1',
-      level: 1,
+      level: 10,
       stage: 'Ensino Médio',
       name: '1º Ano do Ensino Médio',
       units: [
         {
           id: 'bio-em-1-un-1',
-          title: 'Citologia: O Estudo da Célula',
-          description: 'A base da vida. Nesta unidade, vamos explorar os componentes e funções das células, as unidades fundamentais de todos os seres vivos.',
+          title: 'Unidade - Citologia: A Célula',
+          description: 'A base da vida. Nesta unidade, vamos explorar os componentes, tipos e funções das células, as unidades fundamentais de todos os seres vivos.',
           lessons: [
             {
               id: 'bio-em-1-un-1-les-1',
-              title: 'Introdução à Célula',
+              title: 'Unidade - Teoria Celular e Tipos de Células',
               textContent: {
-                main: 'Toda a vida como conhecemos é feita de células. Elas são as menores unidades estruturais e funcionais dos organismos. Existem dois tipos principais: procariontes e eucariontes...',
-                historicalContext: 'A descoberta da célula foi possível graças à invenção do microscópio no século XVII por Robert Hooke, que observou células de cortiça.',
+                main: 'A Teoria Celular afirma que todos os seres vivos são compostos por células...',
+                historicalContext: 'A descoberta da célula foi possível graças à invenção do microscópio...',
               },
               videos: [
-                { id: 'vid-1', title: 'Tipos de Células: Procariontes vs Eucariontes', url: 'https://www.youtube.com/watch?v=exemplo', durationInMinutes: 12 },
+                { id: 'vid-1', title: 'Unidade - Tipos de Células: Procariontes vs Eucariontes', url: 'https://www.youtube.com/watch?v=exemplo', durationInMinutes: 12 },
               ],
               studyResources: [
-                { id: 'res-1', title: 'Artigo sobre a Teoria Celular', type: 'LINK', url: 'https://brasilescola.uol.com.br/biologia/teoria-celular.htm' },
-                { id: 'res-2', title: 'Livro: Biologia de Campbell', type: 'BOOK', source: 'Capítulo 4, 11ª Edição' },
+                { id: 'res-1', title: 'Unidade - Artigo sobre a Teoria Celular', type: 'LINK', url: 'https://brasilescola.uol.com.br/biologia/teoria-celular.htm' },
+                { id: 'res-2', title: 'Unidade - Livro: Biologia de Campbell', type: 'BOOK', source: 'Capítulo 4, 11ª Edição' },
               ],
               quiz: {
                 id: 'quiz-1',
-                title: 'Teste seus conhecimentos sobre Células',
+                title: 'Unidade - Teste sobre Tipos Celulares',
                 questions: [
                   {
                     id: 'q-1',
                     questionText: 'Qual organela é responsável pela respiração celular?',
                     options: ['Ribossomo', 'Mitocôndria', 'Lisossomo', 'Núcleo'],
                     correctOptionIndex: 1,
-                    solutionGuide: 'A respiração celular ocorre nas mitocôndrias, que geram ATP para a célula. Ribossomos sintetizam proteínas, lisossomos fazem a digestão e o núcleo armazena o DNA.',
+                    solutionGuide: 'A respiração celular ocorre nas mitocôndrias...',
+                  },
+                  {
+                    id: 'q-2',
+                    questionText: 'Bactérias são um exemplo de organismo com células do tipo:',
+                    options: ['Eucarionte', 'Procarionte', 'Pluricelular', 'Complexo'],
+                    correctOptionIndex: 1,
+                    solutionGuide: 'Bactérias são os exemplos mais clássicos de seres procariontes...',
                   },
                 ],
               },
             },
             {
               id: 'bio-em-1-un-1-les-2',
-              title: 'Membrana Plasmática',
-              // ... conteúdo simplificado para a segunda aula
-              textContent: { main: 'A membrana plasmática controla o que entra e sai da célula...' },
+              title: 'Unidade - Membrana Plasmática e Transportes',
+              textContent: { main: 'A membrana plasmática é uma película delgada que envolve a célula...' },
               videos: [],
               studyResources: [],
-              quiz: { id: 'quiz-2', title: 'Teste sobre Membrana', questions: [] },
+              quiz: { id: 'quiz-2', title: 'Unidade - Teste sobre Membrana Plasmática', questions: [] },
             },
           ],
         },
         {
           id: 'bio-em-1-un-2',
-          title: 'Bioquímica: A Química da Vida',
-          description: 'Estudo das moléculas essenciais para a vida, como água, carboidratos, lipídios e proteínas.',
-          lessons: [], // Aulas a serem adicionadas
+          title: 'Unidade - Bioquímica Celular',
+          description: 'A química da vida: um estudo sobre as moléculas orgânicas e inorgânicas essenciais...',
+          lessons: [],
+        },
+        {
+            id: 'bio-em-1-un-3',
+            title: 'Unidade - Genética e Divisão Celular',
+            description: 'Como as células se reproduzem e transmitem suas informações genéticas...',
+            lessons: [],
         },
       ],
+    },
+    // --- 2º ANO DO ENSINO MÉDIO ---
+    {
+        id: 'bio-em-2',
+        level: 11,
+        stage: 'Ensino Médio',
+        name: '2º Ano do Ensino Médio',
+        units: [
+          {
+            id: 'bio-em-2-un-1',
+            title: 'Unidade - Classificação dos Seres Vivos',
+            description: 'Uma visão geral sobre os Reinos da natureza...',
+            lessons: [
+                {
+                    id: 'bio-em-2-un-1-les-1',
+                    title: 'Unidade - Os 5 Reinos',
+                    textContent: { main: 'A classificação em cinco reinos é uma das formas mais didáticas...' },
+                    videos: [],
+                    studyResources: [],
+                    quiz: { id: 'quiz-3', title: 'Unidade - Teste sobre os Reinos', questions: [] },
+                },
+            ],
+          },
+          {
+            id: 'bio-em-2-un-2',
+            title: 'Unidade - Fisiologia Vegetal',
+            description: 'O estudo do funcionamento das plantas...',
+            lessons: [],
+          },
+          {
+            id: 'bio-em-2-un-3',
+            title: 'Unidade - Fisiologia Animal Comparada',
+            description: 'Análise comparativa dos sistemas...',
+            lessons: [],
+          },
+        ],
+    },
+    // --- 3º ANO DO ENSINO MÉDIO ---
+    {
+        id: 'bio-em-3',
+        level: 12,
+        stage: 'Ensino Médio',
+        name: '3º Ano do Ensino Médio',
+        units: [
+          {
+            id: 'bio-em-3-un-1',
+            title: 'Unidade - Genética',
+            description: 'Aprofundamento nas Leis de Mendel...',
+            lessons: [
+                {
+                    id: 'bio-em-3-un-1-les-1',
+                    title: 'Unidade - Primeira Lei de Mendel',
+                    textContent: { main: 'A Lei da Segregação dos Fatores demonstra como as características...' },
+                    videos: [],
+                    studyResources: [],
+                    quiz: { id: 'quiz-4', title: 'Unidade - Teste sobre Mendel', questions: [] },
+                },
+            ],
+          },
+          {
+            id: 'bio-em-3-un-2',
+            title: 'Unidade - Evolução',
+            description: 'Estudo das principais teorias evolutivas...',
+            lessons: [],
+          },
+          {
+            id: 'bio-em-3-un-3',
+            title: 'Unidade - Ecologia',
+            description: 'Análise das relações entre os seres vivos e o ambiente...',
+            lessons: [],
+          },
+        ],
     },
   ],
 };

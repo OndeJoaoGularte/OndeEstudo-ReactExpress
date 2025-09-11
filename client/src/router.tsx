@@ -1,12 +1,9 @@
-import {
-  createRouter,
-  createRoute,
-  createRootRoute,
-  Outlet,
-} from '@tanstack/react-router';
+import { createRouter, createRoute, createRootRoute, Outlet } from '@tanstack/react-router';
 import { MainLayout } from './layouts/MainLayout';
 import { HomePage } from './pages/HomePage';
 import { SubjectPage } from './pages/SubjectPage';
+import { GradePage } from './pages/GradePage';
+import { UnitPage } from './pages/UnitPage';
 
 const rootRoute = createRootRoute({
   component: () => (
@@ -28,7 +25,19 @@ const subjectRoute = createRoute({
   component: SubjectPage,
 });
 
-const routeTree = rootRoute.addChildren([indexRoute, subjectRoute]);
+const gradeRoute = createRoute({
+  getParentRoute: () => rootRoute,
+  path: '/materias/$subjectId/$gradeId',
+  component: GradePage,
+});
+
+const unitRoute = createRoute({
+  getParentRoute: () => rootRoute,
+  path: '/materias/$subjectId/$gradeId/$unitId',
+  component: UnitPage,
+});
+
+const routeTree = rootRoute.addChildren([indexRoute, subjectRoute, gradeRoute, unitRoute]);
 
 export const router = createRouter({ routeTree });
 

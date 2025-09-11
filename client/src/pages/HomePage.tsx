@@ -1,8 +1,8 @@
 import { useQuery } from '@tanstack/react-query';
 import { fetchAllSubjects } from '../mocks/api';
 import { Box, Typography, CircularProgress, Stack } from '@mui/material';
-
 import { SubjectCard } from '../components/SubjectCard';
+import ondeEstudoLogo from '../assets/ondeestudo.png'; 
 
 export function HomePage() {
   const { data: subjects, isLoading, isError } = useQuery({
@@ -24,9 +24,27 @@ export function HomePage() {
 
   return (
     <Box sx={{ p: 4 }}>
-      <Typography variant="h3" component="h1" gutterBottom textAlign={'center'}>
-        Matérias
+       <Typography
+        variant="h5"
+        component="h1"
+        textAlign="center"
+        color="text.secondary"
+      >
+        Você já se perguntou:
       </Typography>
+      <Box
+        component="img"
+        src={ondeEstudoLogo}
+        alt="Onde Estudo Logo"
+        sx={{
+          display: 'block',
+          mx: 'auto',
+          width: { xs: '80%', sm: '60%', md: '40%' },
+          maxWidth: '1000px',
+          height: 'auto',
+          mb: 4,
+        }}
+      />
       
       <Stack
         spacing={3}

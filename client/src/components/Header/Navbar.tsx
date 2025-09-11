@@ -2,6 +2,7 @@ import { useQuery } from '@tanstack/react-query';
 import { fetchAllSubjects } from '../../mocks/api';
 import type { Subject } from '../../types/entities';
 import { Button, Toolbar, CircularProgress, Typography } from '@mui/material';
+import { Link } from '@tanstack/react-router';
 
 export function Navbar() {
   const { data: subjects, isLoading, isError } = useQuery({
@@ -27,13 +28,19 @@ export function Navbar() {
       {isLoading && <CircularProgress size={24} />}
       {isError && <Typography variant="body2" color="error">Erro</Typography>}
       {subjects?.map((subject: Subject) => (
-        <Button
+        <Link 
           key={subject.id}
-          color="inherit"
-          sx={{ my: 1, mx: 1, flexShrink: 0, textTransform: 'none' }}
-        >
-          {subject.name}
-        </Button>
+          to="/materias/$subjectId"
+          params={{ subjectId: subject.id }}
+          style={{ textDecoration: 'none', color: 'inherit' }}>
+          <Button
+            key={subject.id}
+            color="inherit"
+            sx={{ my: 1, mx: 1, flexShrink: 0, textTransform: 'none' }}
+          >
+            {subject.name}
+          </Button>
+        </Link>
       ))}
     </Toolbar>
   );
