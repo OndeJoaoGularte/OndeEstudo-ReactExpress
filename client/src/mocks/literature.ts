@@ -3,7 +3,8 @@ import type { Subject } from '../types/entities';
 export const literature: Subject = {
   id: 'literature',
   name: 'Literatura',
-  description: 'Mergulhe nas grandes obras da humanidade e descubra como a arte da palavra revela as profundezas da condição humana e da cultura.',
+  shortDescription: 'Mergulhe nas grandes obras da humanidade e descubra como a arte da palavra revela as profundezas da condição humana e da cultura.',
+  longDescription: 'Mergulhe nas grandes obras da humanidade e descubra como a arte da palavra revela as profundezas da condição humana e da cultura com o curso de Literatura da OndeEstudo? baseado na BNCC!',
   grades: [
     {
       id: 'mat-em-1',

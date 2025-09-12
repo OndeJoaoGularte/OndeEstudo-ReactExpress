@@ -3,7 +3,8 @@ import type { Subject } from '../types/entities';
 export const english: Subject = {
   id: 'english',
   name: 'Inglês',
-  description: 'Domine o idioma global da comunicação, abrindo portas para novas culturas, oportunidades e um universo de conhecimento.',
+  shortDescription: 'Domine o idioma global da comunicação, abrindo portas para novas culturas, oportunidades e um universo de conhecimento.',
+  longDescription: 'Domine o idioma global da comunicação, abrindo portas para novas culturas, oportunidades e um universo de conhecimento com o curso de Inglês da OndeEstudo? baseado na BNCC!',
   grades: [
     {
       id: 'mat-em-1',

@@ -3,7 +3,8 @@ import type { Subject } from '../types/entities';
 export const portuguese: Subject = {
   id: 'portuguese',
   name: 'Português',
-  description: 'Aprofunde-se na estrutura do nosso idioma, aprimorando a interpretação de textos e a capacidade de se comunicar com clareza e precisão.',
+  shortDescription: 'Aprofunde-se na estrutura do nosso idioma, aprimorando a interpretação de textos e a capacidade de se comunicar com clareza e precisão.',
+  longDescription: 'Aprofunde-se na estrutura do nosso idioma, aprimorando a interpretação de textos e a capacidade de se comunicar com clareza e precisão com o curso de Português da OndeEstudo? baseado na BNCC!',
   grades: [
     {
       id: 'mat-em-1',

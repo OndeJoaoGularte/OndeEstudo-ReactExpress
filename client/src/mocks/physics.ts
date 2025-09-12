@@ -3,7 +3,8 @@ import type { Subject } from '../types/entities';
 export const physics: Subject = {
   id: 'physics',
   name: 'Física',
-  description: 'Decifre as leis que regem o universo, do movimento dos planetas à energia dos átomos, e compreenda o funcionamento do cosmos.',
+  shortDescription: 'Decifre as leis que regem o universo, do movimento dos planetas à energia dos átomos, e compreenda o funcionamento do cosmos.',
+  longDescription: 'Decifre as leis que regem o universo, do movimento dos planetas à energia dos átomos, e compreenda o funcionamento do cosmos com o curso de Física da OndeEstudo? baseado na BNCC!',
   grades: [
     {
       id: 'mat-em-1',

@@ -3,7 +3,8 @@ import type { Subject } from '../types/entities';
 export const geography: Subject = {
   id: 'geography',
   name: 'Geografia',
-  description: 'Analise a interação entre a sociedade e o espaço, compreendendo as paisagens, os fenômenos climáticos e as dinâmicas globais.',
+  shortDescription: 'Analise a interação entre a sociedade e o espaço, compreendendo as paisagens, os fenômenos climáticos e as dinâmicas globais.',
+  longDescription: 'Analise a interação entre a sociedade e o espaço, compreendendo as paisagens, os fenômenos climáticos e as dinâmicas globais com o curso de Geografia da OndeEstudo? baseado na BNCC!',
   grades: [
     {
       id: 'mat-em-1',

@@ -3,7 +3,8 @@ import type { Subject } from '../types/entities';
 export const chemistry: Subject = {
   id: 'chemistry',
   name: 'Química',
-  description: 'Entenda como a matéria se transforma e reage, desvendando a composição de tudo que nos cerca, do seu DNA aos planetas.',
+  shortDescription: 'Entenda como a matéria se transforma e reage, desvendando a composição de tudo que nos cerca, do seu DNA aos planetas.',
+  longDescription: 'Entenda como a matéria se transforma e reage, desvendando a composição de tudo que nos cerca, do seu DNA aos planetas com o curso de Química da OndeEstudo? baseado na BNCC!.',
   grades: [
     {
       id: 'mat-em-1',

@@ -3,7 +3,8 @@ import type { Subject } from '../types/entities';
 export const history: Subject = {
   id: 'history',
   name: 'História',
-  description: 'Viaje pelo tempo e investigue os eventos que moldaram o presente, desenvolvendo um olhar crítico sobre o mundo e a humanidade.',
+  shortDescription: 'Viaje pelo tempo e investigue os eventos que moldaram o presente, desenvolvendo um olhar crítico sobre o mundo e a humanidade.',
+  longDescription: 'Viaje pelo tempo e investigue os eventos que moldaram o presente, desenvolvendo um olhar crítico sobre o mundo e a humanidade com o curso de História da OndeEstudo? baseado na BNCC!',
   grades: [
     {
       id: 'mat-em-1',

@@ -3,7 +3,8 @@ import type { Subject } from '../types/entities';
 export const arts: Subject = {
   id: 'arts',
   name: 'Artes',
-  description: 'Explore a história da expressão humana, da pintura à música, e desperte sua própria criatividade e sensibilidade.',
+  shortDescription: 'Explore a história da expressão humana, da pintura à música, e desperte sua própria criatividade e sensibilidade.',
+  longDescription: 'Explore a história da expressão humana, da pintura à música, e desperte sua própria criatividade e sensibilidade com o curso de Artes da OndeEstudo? baseado na BNCC!',
   grades: [
     {
       id: 'mat-em-1',

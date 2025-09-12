@@ -3,7 +3,8 @@ import type { Subject } from '../types/entities';
 export const mathematics: Subject = {
   id: 'mathematics',
   name: 'Matemática',
-  description: 'Desenvolva o raciocínio lógico e a capacidade de resolver problemas com a linguagem universal dos números.',
+  shortDescription: 'Desenvolva o raciocínio lógico e a capacidade de resolver problemas com a linguagem universal dos números.',
+  longDescription: 'Desenvolva o raciocínio lógico e a capacidade de resolver problemas com a linguagem universal dos números com o curso de Matemática da OndeEstudo? baseado na BNCC!',
   grades: [
     {
       id: 'mat-em-1',

@@ -3,7 +3,8 @@ import type { Subject } from '../types/entities';
 export const sociology: Subject = {
   id: 'sociology',
   name: 'Sociologia',
-  description: 'Analise as estruturas sociais, as relações humanas e os fenômenos culturais para entender as dinâmicas da vida em sociedade.',
+  shortDescription: 'Analise as estruturas sociais, as relações humanas e os fenômenos culturais para entender as dinâmicas da vida em sociedade.',
+  longDescription: 'Analise as estruturas sociais, as relações humanas e os fenômenos culturais para entender as dinâmicas da vida em sociedade com o curso de Sociologia da OndeEstudo? baseado na BNCC!',
   grades: [
     {
       id: 'mat-em-1',

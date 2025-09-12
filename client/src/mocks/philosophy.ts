@@ -3,7 +3,8 @@ import type { Subject } from '../types/entities';
 export const philosophy: Subject = {
   id: 'philosophy',
   name: 'Filosofia',
-  description: 'Desafie suas certezas e explore as grandes questões da existência, da ética e do conhecimento, afiando seu pensamento crítico.',
+  shortDescription: 'Desafie suas certezas e explore as grandes questões da existência, da ética e do conhecimento, afiando seu pensamento crítico.',
+  longDescription: 'Desafie suas certezas e explore as grandes questões da existência, da ética e do conhecimento, afiando seu pensamento crítico com o curso de Filosofia da OndeEstudo? baseado na BNCC!',
   grades: [
     {
       id: 'mat-em-1',

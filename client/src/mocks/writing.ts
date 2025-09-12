@@ -3,7 +3,8 @@ import type { Subject } from '../types/entities';
 export const writing: Subject = {
   id: 'writing',
   name: 'Redação',
-  description: 'Domine as técnicas de argumentação e estruturação de textos para construir uma redação nota máxima e defender suas ideias com confiança.',
+  shortDescription: 'Domine as técnicas de argumentação e estruturação de textos para construir uma redação nota máxima e defender suas ideias com confiança.',
+  longDescription: 'Domine as técnicas de argumentação e estruturação de textos para construir uma redação nota máxima e defender suas ideias com confiança com o curso de Redação da OndeEstudo? baseado na BNCC!',
   grades: [
     {
       id: 'mat-em-1',
