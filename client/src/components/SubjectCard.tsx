@@ -51,7 +51,7 @@ export function SubjectCard({ subject }: SubjectCardProps) {
         </Box>
 
         <Typography variant="body2">
-          {subject.description}
+          {subject.shortDescription}
         </Typography>
       </CardContent>
 

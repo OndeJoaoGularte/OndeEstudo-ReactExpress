@@ -3,7 +3,8 @@ import type { Subject } from '../types/entities';
 export const biology: Subject = {
   id: 'biology',
   name: 'Biologia',
-  description: 'Explore os segredos da vida, desde as menores células até os complexos ecossistemas que formam nosso planeta.',
+  shortDescription: 'Explore os segredos da vida, desde as menores células até os complexos ecossistemas que formam nosso planeta.',
+  longDescription: 'Explore os segredos da vida, desde as menores células até os complexos ecossistemas que formam nosso planeta com o curso de Biologia da OndeEstudo? baseado na BNCC!',
   grades: [
     // --- ENSINO FUNDAMENTAL 1 ---
     {

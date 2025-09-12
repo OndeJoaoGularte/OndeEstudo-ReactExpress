@@ -1,4 +1,3 @@
-import * as React from 'react';
 import { useParams } from '@tanstack/react-router';
 import { useQuery } from '@tanstack/react-query';
 import {
@@ -6,33 +5,16 @@ import {
   Typography,
   Grid,
   CircularProgress,
-  Breadcrumbs,
-  Accordion,
-  AccordionSummary,
-  AccordionDetails,
-  List,
-  ListItem,
-  ListItemText,
+  Breadcrumbs
 } from '@mui/material';
-import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import { Link } from '@tanstack/react-router';
 
 import { fetchSubjectById } from '../mocks/api';
-import { ProgressIcon } from '../components/ProgressIcon';
 import { SubjectSidebar } from '../components/Sidebar/SubjectSidebar';
+import { GradeCard } from '../components/GradeCard';
 
 export function SubjectPage() {
   const { subjectId } = useParams({ from: '/materias/$subjectId' });
-
-  const [expandedGrade, setExpandedGrade] = React.useState<string | false>(false);
-  const [expandedUnit, setExpandedUnit] = React.useState<string | false>(false);
-
-  const handleGradeChange = (panel: string) => (_event: React.SyntheticEvent, isExpanded: boolean) => {
-    setExpandedGrade(isExpanded ? panel : false);
-  };
-  const handleUnitChange = (panel: string) => (_event: React.SyntheticEvent, isExpanded: boolean) => {
-    setExpandedUnit(isExpanded ? panel : false);
-  };
 
   const { data: subject, isLoading, isError } = useQuery({
     queryKey: ['subject', subjectId],
@@ -71,63 +53,17 @@ export function SubjectPage() {
             {subject.name}
           </Typography>
 
-          <Box sx={{ mt: 4 }}>
-            {subject.grades.map((grade, index) => {
-              const progressStates = [100, 75, 50, 25, 0];
-              const gradeProgress = progressStates[index % progressStates.length];
+          <Typography variant="h6" color="text.secondary" sx={{ mb: 4 }}>
+            {subject.longDescription}
+          </Typography>
 
-              return (
-                <Accordion key={grade.id} expanded={expandedGrade === grade.id} onChange={handleGradeChange(grade.id)}>
-                  <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-                    <Box sx={{ display: 'flex', alignItems: 'center', width: '100%' }}>
-                      <Link
-                        to="/materias/$subjectId/$gradeId"
-                        params={{ subjectId: subject.id, gradeId: grade.id }}
-                        onClick={(e) => e.stopPropagation()}
-                        style={{ textDecoration: 'none' }}
-                      >
-                        <ProgressIcon progress={gradeProgress} sx={{ mr: 2, verticalAlign: 'middle' }} />
-                      </Link>
-                      <Typography>{grade.name}</Typography>
-                    </Box>
-                  </AccordionSummary>
-                  <AccordionDetails>
-                    {grade.units.map((unit, unitIndex) => {
-                      const unitProgress = progressStates[unitIndex % progressStates.length];
-                      return (
-                        <Accordion key={unit.id} expanded={expandedUnit === unit.id} onChange={handleUnitChange(unit.id)} sx={{ boxShadow: 'none', '&:before': { display: 'none' } }}>
-                          <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-                            <Box sx={{ display: 'flex', alignItems: 'center', width: '100%' }}>
-                              <Link
-                                to="/materias/$subjectId/$gradeId/$unitId"
-                                params={{ subjectId: subject.id, gradeId: grade.id, unitId: unit.id }}
-                                onClick={(e) => e.stopPropagation()}
-                                style={{ textDecoration: 'none' }}
-                              >
-                                <ProgressIcon progress={unitProgress} sx={{ mr: 2, verticalAlign: 'middle' }} />
-                              </Link>
-                              <Typography>{unit.title}</Typography>
-                            </Box>
-                          </AccordionSummary>
-                          <AccordionDetails>
-                            <List>
-                              {unit.lessons.length > 0 ? unit.lessons.map(lesson => (
-                                <ListItem key={lesson.id} disablePadding>
-                                  <ListItemText primary={lesson.title} />
-                                </ListItem>
-                              )) : (
-                                <Typography variant="body2" color="text.secondary">Nenhuma aula disponível nesta unidade.</Typography>
-                              )}
-                            </List>
-                          </AccordionDetails>
-                        </Accordion>
-                      );
-                    })}
-                  </AccordionDetails>
-                </Accordion>
-              );
-            })}
-          </Box>
+          <Grid container spacing={3} sx={{ mt: 2 }}>
+            {subject.grades.map(grade => (
+              <Grid size={4}>
+                <GradeCard subject={subject} grade={grade} />
+              </Grid>
+            ))}
+          </Grid>
         </Grid>
       </Grid>
     </Box>

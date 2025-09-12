@@ -73,7 +73,8 @@ export interface Grade {
 export interface Subject {
   id: string;
   name: string;
-  description: string;
+  shortDescription: string;
+  longDescription: string;
   grades: Grade[];
 }
 
