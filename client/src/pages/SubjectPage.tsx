@@ -18,8 +18,8 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import { Link } from '@tanstack/react-router';
 
 import { fetchSubjectById } from '../mocks/api';
-import { Sidebar } from '../components/Sidebar';
 import { ProgressIcon } from '../components/ProgressIcon';
+import { SubjectSidebar } from '../components/Sidebar/SubjectSidebar';
 
 export function SubjectPage() {
   const { subjectId } = useParams({ from: '/materias/$subjectId' });
@@ -56,7 +56,7 @@ export function SubjectPage() {
     <Box sx={{ p: 5 }}>
       <Grid container spacing={2}>
         <Grid size={3}>
-          <Sidebar subject={subject} />
+          <SubjectSidebar subject={subject} />
         </Grid>
         <Grid size={8}>
 
