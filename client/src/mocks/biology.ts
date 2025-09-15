@@ -15,7 +15,7 @@ export const biology: Subject = {
       units: [
         {
           id: 'bio-ef-1-un-1',
-          title: 'Unidade - A Terra e o Universo',
+          title: 'A Terra e o Universo',
           description: 'Compreendendo nosso lugar no cosmos, os movimentos da Terra e a estrutura do sistema solar.',
           lessons: [
                 {
@@ -24,7 +24,7 @@ export const biology: Subject = {
                     textContent: { main: 'A Lei da Segregação dos Fatores demonstra como as características...' },
                     videos: [],
                     studyResources: [],
-                    quiz: { id: 'quiz-4', title: 'Unidade - Teste sobre Mendel', questions: [] },
+                    quiz: { id: 'quiz-4', title: 'Teste sobre Mendel', questions: [] },
                 },
                 {
                     id: 'bio-em-3-un-1-les-1',
@@ -32,7 +32,7 @@ export const biology: Subject = {
                     textContent: { main: 'A Lei da Segregação dos Fatores demonstra como as características...' },
                     videos: [],
                     studyResources: [],
-                    quiz: { id: 'quiz-4', title: 'Unidade - Teste sobre Mendel', questions: [] },
+                    quiz: { id: 'quiz-4', title: 'Teste sobre Mendel', questions: [] },
                 },
                 {
                     id: 'bio-em-3-un-1-les-1',
@@ -40,7 +40,7 @@ export const biology: Subject = {
                     textContent: { main: 'A Lei da Segregação dos Fatores demonstra como as características...' },
                     videos: [],
                     studyResources: [],
-                    quiz: { id: 'quiz-4', title: 'Unidade - Teste sobre Mendel', questions: [] },
+                    quiz: { id: 'quiz-4', title: 'Teste sobre Mendel', questions: [] },
                 },
                 {
                     id: 'bio-em-3-un-1-les-1',
@@ -48,7 +48,7 @@ export const biology: Subject = {
                     textContent: { main: 'A Lei da Segregação dos Fatores demonstra como as características...' },
                     videos: [],
                     studyResources: [],
-                    quiz: { id: 'quiz-4', title: 'Unidade - Teste sobre Mendel', questions: [] },
+                    quiz: { id: 'quiz-4', title: 'Teste sobre Mendel', questions: [] },
                 },
                 {
                     id: 'bio-em-3-un-1-les-1',
@@ -56,7 +56,7 @@ export const biology: Subject = {
                     textContent: { main: 'A Lei da Segregação dos Fatores demonstra como as características...' },
                     videos: [],
                     studyResources: [],
-                    quiz: { id: 'quiz-4', title: 'Unidade - Teste sobre Mendel', questions: [] },
+                    quiz: { id: 'quiz-4', title: 'Teste sobre Mendel', questions: [] },
                 },
                 {
                     id: 'bio-em-3-un-1-les-1',
@@ -64,7 +64,7 @@ export const biology: Subject = {
                     textContent: { main: 'A Lei da Segregação dos Fatores demonstra como as características...' },
                     videos: [],
                     studyResources: [],
-                    quiz: { id: 'quiz-4', title: 'Unidade - Teste sobre Mendel', questions: [] },
+                    quiz: { id: 'quiz-4', title: 'Teste sobre Mendel', questions: [] },
                 },
                 {
                     id: 'bio-em-3-un-1-les-1',
@@ -72,7 +72,7 @@ export const biology: Subject = {
                     textContent: { main: 'A Lei da Segregação dos Fatores demonstra como as características...' },
                     videos: [],
                     studyResources: [],
-                    quiz: { id: 'quiz-4', title: 'Unidade - Teste sobre Mendel', questions: [] },
+                    quiz: { id: 'quiz-4', title: 'Teste sobre Mendel', questions: [] },
                 },
                 {
                     id: 'bio-em-3-un-1-les-1',
@@ -80,7 +80,7 @@ export const biology: Subject = {
                     textContent: { main: 'A Lei da Segregação dos Fatores demonstra como as características...' },
                     videos: [],
                     studyResources: [],
-                    quiz: { id: 'quiz-4', title: 'Unidade - Teste sobre Mendel', questions: [] },
+                    quiz: { id: 'quiz-4', title: 'Teste sobre Mendel', questions: [] },
                 },
                 {
                     id: 'bio-em-3-un-1-les-1',
@@ -88,7 +88,7 @@ export const biology: Subject = {
                     textContent: { main: 'A Lei da Segregação dos Fatores demonstra como as características...' },
                     videos: [],
                     studyResources: [],
-                    quiz: { id: 'quiz-4', title: 'Unidade - Teste sobre Mendel', questions: [] },
+                    quiz: { id: 'quiz-4', title: 'Teste sobre Mendel', questions: [] },
                 },
                 {
                     id: 'bio-em-3-un-1-les-1',
@@ -96,7 +96,7 @@ export const biology: Subject = {
                     textContent: { main: 'A Lei da Segregação dos Fatores demonstra como as características...' },
                     videos: [],
                     studyResources: [],
-                    quiz: { id: 'quiz-4', title: 'Unidade - Teste sobre Mendel', questions: [] },
+                    quiz: { id: 'quiz-4', title: 'Teste sobre Mendel', questions: [] },
                 },
                 {
                     id: 'bio-em-3-un-1-les-1',
@@ -104,7 +104,7 @@ export const biology: Subject = {
                     textContent: { main: 'A Lei da Segregação dos Fatores demonstra como as características...' },
                     videos: [],
                     studyResources: [],
-                    quiz: { id: 'quiz-4', title: 'Unidade - Teste sobre Mendel', questions: [] },
+                    quiz: { id: 'quiz-4', title: 'Teste sobre Mendel', questions: [] },
                 },
                 {
                     id: 'bio-em-3-un-1-les-1',
@@ -112,73 +112,73 @@ export const biology: Subject = {
                     textContent: { main: 'A Lei da Segregação dos Fatores demonstra como as características...' },
                     videos: [],
                     studyResources: [],
-                    quiz: { id: 'quiz-4', title: 'Unidade - Teste sobre Mendel', questions: [] },
+                    quiz: { id: 'quiz-4', title: 'Teste sobre Mendel', questions: [] },
                 },
             ],
         },
         {
           id: 'bio-ef-1-un-2',
-          title: 'Unidade - A Água no Planeta',
+          title: 'A Água no Planeta',
           description: 'Estudo sobre os estados físicos da água, o ciclo hidrológico e sua importância para a vida.',
           lessons: [],
         },
         {
           id: 'bio-ef-1-un-3',
-          title: 'Unidade - Ar e Atmosfera',
+          title: 'Ar e Atmosfera',
           description: 'Investigando a composição do ar, as camadas da atmosfera e os fenômenos climáticos.',
           lessons: [],
         },
         {
           id: 'bio-ef-1-un-4',
-          title: 'Unidade - Seres Vivos e Células',
+          title: 'Seres Vivos e Células',
           description: 'Uma introdução à diversidade da vida e à descoberta da célula como unidade fundamental dos seres vivos.',
           lessons: [],
         },
         {
           id: 'bio-ef-1-un-1',
-          title: 'Unidade - A Terra e o Universo',
+          title: 'A Terra e o Universo',
           description: 'Compreendendo nosso lugar no cosmos, os movimentos da Terra e a estrutura do sistema solar.',
           lessons: [],
         },
         {
           id: 'bio-ef-1-un-2',
-          title: 'Unidade - A Água no Planeta',
+          title: 'A Água no Planeta',
           description: 'Estudo sobre os estados físicos da água, o ciclo hidrológico e sua importância para a vida.',
           lessons: [],
         },
         {
           id: 'bio-ef-1-un-3',
-          title: 'Unidade - Ar e Atmosfera',
+          title: 'Ar e Atmosfera',
           description: 'Investigando a composição do ar, as camadas da atmosfera e os fenômenos climáticos.',
           lessons: [],
         },
         {
           id: 'bio-ef-1-un-4',
-          title: 'Unidade - Seres Vivos e Células',
+          title: 'Seres Vivos e Células',
           description: 'Uma introdução à diversidade da vida e à descoberta da célula como unidade fundamental dos seres vivos.',
           lessons: [],
         },
         {
           id: 'bio-ef-1-un-1',
-          title: 'Unidade - A Terra e o Universo',
+          title: 'A Terra e o Universo',
           description: 'Compreendendo nosso lugar no cosmos, os movimentos da Terra e a estrutura do sistema solar.',
           lessons: [],
         },
         {
           id: 'bio-ef-1-un-2',
-          title: 'Unidade - A Água no Planeta',
+          title: 'A Água no Planeta',
           description: 'Estudo sobre os estados físicos da água, o ciclo hidrológico e sua importância para a vida.',
           lessons: [],
         },
         {
           id: 'bio-ef-1-un-3',
-          title: 'Unidade - Ar e Atmosfera',
+          title: 'Ar e Atmosfera',
           description: 'Investigando a composição do ar, as camadas da atmosfera e os fenômenos climáticos.',
           lessons: [],
         },
         {
           id: 'bio-ef-1-un-4',
-          title: 'Unidade - Seres Vivos e Células',
+          title: 'Seres Vivos e Células',
           description: 'Uma introdução à diversidade da vida e à descoberta da célula como unidade fundamental dos seres vivos.',
           lessons: [],
         },
@@ -192,25 +192,25 @@ export const biology: Subject = {
       units: [
         {
           id: 'bio-ef-2-un-1',
-          title: 'Unidade - A Terra e o Universo',
+          title: 'A Terra e o Universo',
           description: 'Compreendendo nosso lugar no cosmos, os movimentos da Terra e a estrutura do sistema solar.',
           lessons: [],
         },
         {
           id: 'bio-ef-2-un-2',
-          title: 'Unidade - A Água no Planeta',
+          title: 'A Água no Planeta',
           description: 'Estudo sobre os estados físicos da água, o ciclo hidrológico e sua importância para a vida.',
           lessons: [],
         },
         {
           id: 'bio-ef-2-un-3',
-          title: 'Unidade - Ar e Atmosfera',
+          title: 'Ar e Atmosfera',
           description: 'Investigando a composição do ar, as camadas da atmosfera e os fenômenos climáticos.',
           lessons: [],
         },
         {
           id: 'bio-ef-2-un-4',
-          title: 'Unidade - Seres Vivos e Células',
+          title: 'Seres Vivos e Células',
           description: 'Uma introdução à diversidade da vida e à descoberta da célula como unidade fundamental dos seres vivos.',
           lessons: [],
         },
@@ -224,25 +224,25 @@ export const biology: Subject = {
       units: [
         {
           id: 'bio-ef-3-un-1',
-          title: 'Unidade - A Terra e o Universo',
+          title: 'A Terra e o Universo',
           description: 'Compreendendo nosso lugar no cosmos, os movimentos da Terra e a estrutura do sistema solar.',
           lessons: [],
         },
         {
           id: 'bio-ef-3-un-2',
-          title: 'Unidade - A Água no Planeta',
+          title: 'A Água no Planeta',
           description: 'Estudo sobre os estados físicos da água, o ciclo hidrológico e sua importância para a vida.',
           lessons: [],
         },
         {
           id: 'bio-ef-3-un-3',
-          title: 'Unidade - Ar e Atmosfera',
+          title: 'Ar e Atmosfera',
           description: 'Investigando a composição do ar, as camadas da atmosfera e os fenômenos climáticos.',
           lessons: [],
         },
         {
           id: 'bio-ef-3-un-4',
-          title: 'Unidade - Seres Vivos e Células',
+          title: 'Seres Vivos e Células',
           description: 'Uma introdução à diversidade da vida e à descoberta da célula como unidade fundamental dos seres vivos.',
           lessons: [],
         },
@@ -256,25 +256,25 @@ export const biology: Subject = {
       units: [
         {
           id: 'bio-ef-4-un-1',
-          title: 'Unidade - A Terra e o Universo',
+          title: 'A Terra e o Universo',
           description: 'Compreendendo nosso lugar no cosmos, os movimentos da Terra e a estrutura do sistema solar.',
           lessons: [],
         },
         {
           id: 'bio-ef-4-un-2',
-          title: 'Unidade - A Água no Planeta',
+          title: 'A Água no Planeta',
           description: 'Estudo sobre os estados físicos da água, o ciclo hidrológico e sua importância para a vida.',
           lessons: [],
         },
         {
           id: 'bio-ef-4-un-3',
-          title: 'Unidade - Ar e Atmosfera',
+          title: 'Ar e Atmosfera',
           description: 'Investigando a composição do ar, as camadas da atmosfera e os fenômenos climáticos.',
           lessons: [],
         },
         {
           id: 'bio-ef-4-un-4',
-          title: 'Unidade - Seres Vivos e Células',
+          title: 'Seres Vivos e Células',
           description: 'Uma introdução à diversidade da vida e à descoberta da célula como unidade fundamental dos seres vivos.',
           lessons: [],
         },
@@ -288,25 +288,25 @@ export const biology: Subject = {
       units: [
         {
           id: 'bio-ef-5-un-1',
-          title: 'Unidade - A Terra e o Universo',
+          title: 'A Terra e o Universo',
           description: 'Compreendendo nosso lugar no cosmos, os movimentos da Terra e a estrutura do sistema solar.',
           lessons: [],
         },
         {
           id: 'bio-ef-5-un-2',
-          title: 'Unidade - A Água no Planeta',
+          title: 'A Água no Planeta',
           description: 'Estudo sobre os estados físicos da água, o ciclo hidrológico e sua importância para a vida.',
           lessons: [],
         },
         {
           id: 'bio-ef-5-un-3',
-          title: 'Unidade - Ar e Atmosfera',
+          title: 'Ar e Atmosfera',
           description: 'Investigando a composição do ar, as camadas da atmosfera e os fenômenos climáticos.',
           lessons: [],
         },
         {
           id: 'bio-ef-5-un-4',
-          title: 'Unidade - Seres Vivos e Células',
+          title: 'Seres Vivos e Células',
           description: 'Uma introdução à diversidade da vida e à descoberta da célula como unidade fundamental dos seres vivos.',
           lessons: [],
         },
@@ -321,25 +321,25 @@ export const biology: Subject = {
       units: [
         {
           id: 'bio-ef-6-un-1',
-          title: 'Unidade - A Terra e o Universo',
+          title: 'A Terra e o Universo',
           description: 'Compreendendo nosso lugar no cosmos, os movimentos da Terra e a estrutura do sistema solar.',
           lessons: [],
         },
         {
           id: 'bio-ef-6-un-2',
-          title: 'Unidade - A Água no Planeta',
+          title: 'A Água no Planeta',
           description: 'Estudo sobre os estados físicos da água, o ciclo hidrológico e sua importância para a vida.',
           lessons: [],
         },
         {
           id: 'bio-ef-6-un-3',
-          title: 'Unidade - Ar e Atmosfera',
+          title: 'Ar e Atmosfera',
           description: 'Investigando a composição do ar, as camadas da atmosfera e os fenômenos climáticos.',
           lessons: [],
         },
         {
           id: 'bio-ef-6-un-4',
-          title: 'Unidade - Seres Vivos e Células',
+          title: 'Seres Vivos e Células',
           description: 'Uma introdução à diversidade da vida e à descoberta da célula como unidade fundamental dos seres vivos.',
           lessons: [],
         },
@@ -353,25 +353,25 @@ export const biology: Subject = {
       units: [
         {
           id: 'bio-ef-7-un-1',
-          title: 'Unidade - Ecossistemas Brasileiros',
+          title: 'Ecossistemas Brasileiros',
           description: 'Uma viagem pelos principais biomas do Brasil, como a Amazônia, o Cerrado e a Mata Atlântica.',
           lessons: [],
         },
         {
           id: 'bio-ef-7-un-2',
-          title: 'Unidade - Reinos dos Seres Vivos',
+          title: 'Reinos dos Seres Vivos',
           description: 'Classificando a diversidade da vida nos grandes reinos: Monera, Protista, Fungi, Plantae e Animalia.',
           lessons: [],
         },
         {
           id: 'bio-ef-7-un-3',
-          title: 'Unidade - Animais Vertebrados e Invertebrados',
+          title: 'Animais Vertebrados e Invertebrados',
           description: 'Estudando as características e a classificação dos principais grupos de animais.',
           lessons: [],
         },
         {
           id: 'bio-ef-7-un-4',
-          title: 'Unidade - Plantas',
+          title: 'Plantas',
           description: 'Conhecendo os grupos de plantas (Briófitas, Pteridófitas, Gimnospermas e Angiospermas) e seus ciclos de vida.',
           lessons: [],
         },
@@ -385,25 +385,25 @@ export const biology: Subject = {
       units: [
         {
           id: 'bio-ef-8-un-1',
-          title: 'Unidade - Corpo Humano: Nutrição e Digestão',
+          title: 'Corpo Humano: Nutrição e Digestão',
           description: 'O caminho dos alimentos e a obtenção de nutrientes para o funcionamento do corpo.',
           lessons: [],
         },
         {
           id: 'bio-ef-8-un-2',
-          title: 'Unidade - Respiração e Circulação',
+          title: 'Respiração e Circulação',
           description: 'Como o oxigênio chega às células e como o sangue transporta nutrientes e gases pelo corpo.',
           lessons: [],
         },
         {
           id: 'bio-ef-8-un-3',
-          title: 'Unidade - Sistemas Sensoriais e Nervoso',
+          title: 'Sistemas Sensoriais e Nervoso',
           description: 'A percepção do ambiente através dos cinco sentidos e o comando do sistema nervoso.',
           lessons: [],
         },
         {
           id: 'bio-ef-8-un-4',
-          title: 'Unidade - Sexualidade e Reprodução',
+          title: 'Sexualidade e Reprodução',
           description: 'Estudo sobre o sistema reprodutor humano, a puberdade e os métodos contraceptivos.',
           lessons: [],
         },
@@ -417,25 +417,25 @@ export const biology: Subject = {
       units: [
         {
           id: 'bio-ef-9-un-1',
-          title: 'Unidade - Hereditariedade',
+          title: 'Hereditariedade',
           description: 'Introdução aos conceitos de genética, DNA, genes e a transmissão de características.',
           lessons: [],
         },
         {
           id: 'bio-ef-9-un-2',
-          title: 'Unidade - Evolução das Espécies',
+          title: 'Evolução das Espécies',
           description: 'As ideias de Lamarck e Darwin e o conceito de seleção natural como motor da evolução.',
           lessons: [],
         },
         {
           id: 'bio-ef-9-un-3',
-          title: 'Unidade - Química e Física no Cotidiano',
+          title: 'Química e Física no Cotidiano',
           description: 'Uma introdução aos conceitos de matéria, átomos, transformações químicas e as leis do movimento.',
           lessons: [],
         },
         {
           id: 'bio-ef-9-un-4',
-          title: 'Unidade - Ondas, Som e Luz',
+          title: 'Ondas, Som e Luz',
           description: 'Estudando os fenômenos ondulatórios e como percebemos o som e a luz.',
           lessons: [],
         },
@@ -450,26 +450,26 @@ export const biology: Subject = {
       units: [
         {
           id: 'bio-em-1-un-1',
-          title: 'Unidade - Citologia: A Célula',
+          title: 'Citologia: A Célula',
           description: 'A base da vida. Nesta unidade, vamos explorar os componentes, tipos e funções das células, as unidades fundamentais de todos os seres vivos.',
           lessons: [
             {
               id: 'bio-em-1-un-1-les-1',
-              title: 'Unidade - Teoria Celular e Tipos de Células',
+              title: 'Teoria Celular e Tipos de Células',
               textContent: {
                 main: 'A Teoria Celular afirma que todos os seres vivos são compostos por células...',
                 historicalContext: 'A descoberta da célula foi possível graças à invenção do microscópio...',
               },
               videos: [
-                { id: 'vid-1', title: 'Unidade - Tipos de Células: Procariontes vs Eucariontes', url: 'https://www.youtube.com/watch?v=exemplo', durationInMinutes: 12 },
+                { id: 'vid-1', title: 'Tipos de Células: Procariontes vs Eucariontes', url: 'https://www.youtube.com/watch?v=exemplo', durationInMinutes: 12 },
               ],
               studyResources: [
-                { id: 'res-1', title: 'Unidade - Artigo sobre a Teoria Celular', type: 'LINK', url: 'https://brasilescola.uol.com.br/biologia/teoria-celular.htm' },
-                { id: 'res-2', title: 'Unidade - Livro: Biologia de Campbell', type: 'BOOK', source: 'Capítulo 4, 11ª Edição' },
+                { id: 'res-1', title: 'Artigo sobre a Teoria Celular', type: 'LINK', url: 'https://brasilescola.uol.com.br/biologia/teoria-celular.htm' },
+                { id: 'res-2', title: 'Livro: Biologia de Campbell', type: 'BOOK', source: 'Capítulo 4, 11ª Edição' },
               ],
               quiz: {
                 id: 'quiz-1',
-                title: 'Unidade - Teste sobre Tipos Celulares',
+                title: 'Teste sobre Tipos Celulares',
                 questions: [
                   {
                     id: 'q-1',
@@ -490,23 +490,23 @@ export const biology: Subject = {
             },
             {
               id: 'bio-em-1-un-1-les-2',
-              title: 'Unidade - Membrana Plasmática e Transportes',
+              title: 'Membrana Plasmática e Transportes',
               textContent: { main: 'A membrana plasmática é uma película delgada que envolve a célula...' },
               videos: [],
               studyResources: [],
-              quiz: { id: 'quiz-2', title: 'Unidade - Teste sobre Membrana Plasmática', questions: [] },
+              quiz: { id: 'quiz-2', title: 'Teste sobre Membrana Plasmática', questions: [] },
             },
           ],
         },
         {
           id: 'bio-em-1-un-2',
-          title: 'Unidade - Bioquímica Celular',
+          title: 'Bioquímica Celular',
           description: 'A química da vida: um estudo sobre as moléculas orgânicas e inorgânicas essenciais...',
           lessons: [],
         },
         {
             id: 'bio-em-1-un-3',
-            title: 'Unidade - Genética e Divisão Celular',
+            title: 'Genética e Divisão Celular',
             description: 'Como as células se reproduzem e transmitem suas informações genéticas...',
             lessons: [],
         },
@@ -521,28 +521,28 @@ export const biology: Subject = {
         units: [
           {
             id: 'bio-em-2-un-1',
-            title: 'Unidade - Classificação dos Seres Vivos',
+            title: 'Classificação dos Seres Vivos',
             description: 'Uma visão geral sobre os Reinos da natureza...',
             lessons: [
                 {
                     id: 'bio-em-2-un-1-les-1',
-                    title: 'Unidade - Os 5 Reinos',
+                    title: 'Os 5 Reinos',
                     textContent: { main: 'A classificação em cinco reinos é uma das formas mais didáticas...' },
                     videos: [],
                     studyResources: [],
-                    quiz: { id: 'quiz-3', title: 'Unidade - Teste sobre os Reinos', questions: [] },
+                    quiz: { id: 'quiz-3', title: 'Teste sobre os Reinos', questions: [] },
                 },
             ],
           },
           {
             id: 'bio-em-2-un-2',
-            title: 'Unidade - Fisiologia Vegetal',
+            title: 'Fisiologia Vegetal',
             description: 'O estudo do funcionamento das plantas...',
             lessons: [],
           },
           {
             id: 'bio-em-2-un-3',
-            title: 'Unidade - Fisiologia Animal Comparada',
+            title: 'Fisiologia Animal Comparada',
             description: 'Análise comparativa dos sistemas...',
             lessons: [],
           },
@@ -557,7 +557,7 @@ export const biology: Subject = {
         units: [
           {
             id: 'bio-em-3-un-1',
-            title: 'Unidade - Genética',
+            title: 'Genética',
             description: 'Aprofundamento nas Leis de Mendel...',
             lessons: [
                 {
@@ -566,19 +566,19 @@ export const biology: Subject = {
                     textContent: { main: 'A Lei da Segregação dos Fatores demonstra como as características...' },
                     videos: [],
                     studyResources: [],
-                    quiz: { id: 'quiz-4', title: 'Unidade - Teste sobre Mendel', questions: [] },
+                    quiz: { id: 'quiz-4', title: 'Teste sobre Mendel', questions: [] },
                 },
             ],
           },
           {
             id: 'bio-em-3-un-2',
-            title: 'Unidade - Evolução',
+            title: 'Evolução',
             description: 'Estudo das principais teorias evolutivas...',
             lessons: [],
           },
           {
             id: 'bio-em-3-un-3',
-            title: 'Unidade - Ecologia',
+            title: 'Ecologia',
             description: 'Análise das relações entre os seres vivos e o ambiente...',
             lessons: [],
           },
